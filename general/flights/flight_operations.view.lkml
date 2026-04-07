@@ -101,5 +101,15 @@ view: flight_operations {
     description: "Percentage of delayed flights"
   }
 
+  measure: cancelled_flights_percentage {
+    label: "Cancelled Flights %"
+    type: number
+    value_format_name: percent_2
+    sql: ${cancelled_flights_count} / ${total_flights_count}
+      END ;;
+    description: "Percentage of Cancelled flights"
+  }
+
+
 
 }
