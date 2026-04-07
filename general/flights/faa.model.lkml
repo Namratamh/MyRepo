@@ -7,6 +7,10 @@ explore: airports {
   group_label: "FAA"
 }
 
+explore: flight_operations {
+  group_label: "FAA"
+}
+
 explore: flights {
   group_label: "FAA"
   description: "Start here for information about flights!"
